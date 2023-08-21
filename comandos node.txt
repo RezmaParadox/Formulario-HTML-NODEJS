@@ -1,0 +1,16 @@
+1.- Iniciar el package json
+    npm init --y
+
+2- Indicar que trabajaremos con module en el package json
+   "type": "module",
+
+3.- Instalar la dependencia nodemon
+    npm i -E -D nodemon
+
+4.- Crear un script en el json para no tener que invocar nodemon
+    "dev": "nodemon ./http.js"
+
+5.- Ejecutar los scripts del package json
+    npm run dev
+
+6.- Instalar Thunder Client en Visual Studio
